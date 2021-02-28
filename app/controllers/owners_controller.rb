@@ -43,4 +43,5 @@ class OwnersController < ApplicationController
     end
     redirect "owners/#{@owner.id}"
 end
+
 end
